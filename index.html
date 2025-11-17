@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iCashPro - Support</title>
+    <style>
+        :root {
+            --primary: #4361ee;
+            --secondary: #3a0ca3;
+            --accent: #4cc9f0;
+            --light: #f8f9fa;
+            --dark: #212529;
+            --success: #4bb543;
+            --warning: #ffcc00;
+            --danger: #dc3545;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f7fb;
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1.5rem;
+        }
+        
+        .support-section {
+            background-color: white;
+            border-radius: 10px;
+            padding: 2rem;
+            margin: 2rem auto;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            max-width: 800px;
+        }
+        
+        h1 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        h2 {
+            color: var(--secondary);
+            margin: 1.5rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        h3 {
+            color: var(--dark);
+            margin: 1.2rem 0 0.8rem;
+        }
+        
+        p {
+            margin-bottom: 1rem;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin: 1.5rem 0;
+        }
+        
+        .feature-card {
+            background: #f8f9ff;
+            border-radius: 8px;
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .feature-icon {
+            font-size: 1.8rem;
+            margin-bottom: 0.8rem;
+            color: var(--primary);
+        }
+        
+        .highlight {
+            background: linear-gradient(135deg, #4cc9f0, #4361ee);
+            color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            margin: 2rem 0;
+            text-align: center;
+        }
+        
+        .contact-info {
+            text-align: center;
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 1px solid #eee;
+        }
+        
+        .contact-email {
+            display: inline-block;
+            background-color: var(--primary);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        
+        .contact-email:hover {
+            background-color: var(--secondary);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            margin-top: 2rem;
+            color: #6c757d;
+            font-size: 0.9rem;
+            border-top: 1px solid #eee;
+        }
+        
+        @media (max-width: 768px) {
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .support-section {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">iCashPro</div>
+            <div class="tagline">Complete Business Management Solution</div>
+            <h1>App Support</h1>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="support-section">
+            <h2>About iCashPro</h2>
+            <p>iCashPro is a comprehensive business management application designed specifically for freelancers and small businesses in Pakistan. With an intuitive Urdu/English mixed UI, it helps you manage multiple businesses, track income and expenses, and maintain financial records entirely offline.</p>
+            
+            <div class="highlight">
+                <h3>Key Highlights</h3>
+                <p>Offline-first for privacy and speed • Fast & responsive • Handles 500+ transactions with ease • Attach receipts/photos to transactions • Tailor-made for Pakistani users</p>
+            </div>
+            
+            <h2>Complete Features List</h2>
+            
+            <h3>Business Management</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🏢</div>
+                    <h4>Multiple Businesses</h4>
+                    <p>Manage and keep data of multiple businesses separately with easy switching between them.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h4>Flexible Management</h4>
+                    <p>Rename or delete any business and switch between active businesses instantly.</p>
+                </div>
+            </div>
+            
+            <h3>Account Management</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💳</div>
+                    <h4>Multiple Account Types</h4>
+                    <p>Support for Cash, Bank, Mobile Wallet, and Credit Cards with multi-currency support.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌍</div>
+                    <h4>Multi-Currency</h4>
+                    <p>Support for PKR, USD, EUR, and more with opening balance and status management.</p>
+                </div>
+            </div>
+            
+            <h3>Transaction Features</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h4>Income & Expense Tracking</h4>
+                    <p>Record transactions with date, amount, notes, and attach compressed photos.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h4>Organization</h4>
+                    <p>Organize via categories and payment modes with customer name picker.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📝</div>
+                    <h4>Advanced Management</h4>
+                    <p>Edit, delete, move transactions, save drafts, and view running balances.</p>
+                </div>
+            </div>
+            
+            <h3>Reminders & Notifications</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⏰</div>
+                    <h4>Transaction Reminders</h4>
+                    <p>Set reminders for future transactions with full notification management.</p>
+                </div>
+            </div>
+            
+            <h3>Dashboard & Reports</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h4>Financial Overview</h4>
+                    <p>View income, expenses, and balance with currency-wise breakdown.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📊</div>
+                    <h4>Visual Analytics</h4>
+                    <p>Charts for income/expense comparison and Excel-style tabular reports.</p>
+                </div>
+            </div>
+            
+            <h3>Export & Backup</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📤</div>
+                    <h4>Multiple Formats</h4>
+                    <p>CSV export for Excel, PDF for professional reporting, and JSON for backup.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔄</div>
+                    <h4>Easy Sharing</h4>
+                    <p>Share backup/files via WhatsApp, Mail, Files, and other platforms.</p>
+                </div>
+            </div>
+            
+            <h3>Import & Data Management</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">📥</div>
+                    <h4>CSV Import</h4>
+                    <p>Bulk data entry with standard template for efficient data management.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🗃️</div>
+                    <h4>Categories & Payment Modes</h4>
+                    <p>Custom categories and default payment modes with full management.</p>
+                </div>
+            </div>
+            
+            <h3>User Experience</h3>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h4>Themes & Customization</h4>
+                    <p>Light, Dark, or System themes with 10+ color schemes for personalized experience.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h4>Search & Filter</h4>
+                    <p>Search accounts by name and filter by date, account, or category.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚀</div>
+                    <h4>Optimized Performance</h4>
+                    <p>Onboarding for new users, helpful empty states, and optimized for speed.</p>
+                </div>
+            </div>
+            
+            <div class="contact-info">
+                <h2>Need Help?</h2>
+                <p>If you have any questions, need assistance with the app, or want to provide feedback, please contact our support team:</p>
+                <a href="mailto:qasim.aziz@hotmail.com" class="contact-email">qasim.aziz@hotmail.com</a>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container">
+            <p>Thank you for choosing iCashPro!</p>
+            <p>&copy; 2023 iCashPro. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

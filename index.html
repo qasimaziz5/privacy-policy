@@ -1,320 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>iCashPro - Support</title>
-    <style>
-        :root {
-            --primary: #4361ee;
-            --secondary: #3a0ca3;
-            --accent: #4cc9f0;
-            --light: #f8f9fa;
-            --dark: #212529;
-            --success: #4bb543;
-            --warning: #ffcc00;
-            --danger: #dc3545;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: #f5f7fb;
-            color: var(--dark);
-            line-height: 1.6;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 2rem 0;
-            text-align: center;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        
-        .logo {
-            font-size: 2.5rem;
-            font-weight: 700;
-            margin-bottom: 0.5rem;
-        }
-        
-        .tagline {
-            font-size: 1.2rem;
-            opacity: 0.9;
-            margin-bottom: 1.5rem;
-        }
-        
-        .support-section {
-            background-color: white;
-            border-radius: 10px;
-            padding: 2rem;
-            margin: 2rem auto;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
-            max-width: 800px;
-        }
-        
-        h1 {
-            color: var(--primary);
-            margin-bottom: 1.5rem;
-            text-align: center;
-        }
-        
-        h2 {
-            color: var(--secondary);
-            margin: 1.5rem 0 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 2px solid #f0f0f0;
-        }
-        
-        h3 {
-            color: var(--dark);
-            margin: 1.2rem 0 0.8rem;
-        }
-        
-        p {
-            margin-bottom: 1rem;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 1.5rem;
-            margin: 1.5rem 0;
-        }
-        
-        .feature-card {
-            background: #f8f9ff;
-            border-radius: 8px;
-            padding: 1.5rem;
-            border-left: 4px solid var(--accent);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        
-        .feature-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
-        }
-        
-        .feature-icon {
-            font-size: 1.8rem;
-            margin-bottom: 0.8rem;
-            color: var(--primary);
-        }
-        
-        .highlight {
-            background: linear-gradient(135deg, #4cc9f0, #4361ee);
-            color: white;
-            padding: 2rem;
-            border-radius: 10px;
-            margin: 2rem 0;
-            text-align: center;
-        }
-        
-        .contact-info {
-            text-align: center;
-            margin-top: 2rem;
-            padding-top: 2rem;
-            border-top: 1px solid #eee;
-        }
-        
-        .contact-email {
-            display: inline-block;
-            background-color: var(--primary);
-            color: white;
-            padding: 0.8rem 1.5rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: 600;
-            margin-top: 1rem;
-            transition: background-color 0.3s ease;
-        }
-        
-        .contact-email:hover {
-            background-color: var(--secondary);
-        }
-        
-        footer {
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 2rem;
-            color: #6c757d;
-            font-size: 0.9rem;
-            border-top: 1px solid #eee;
-        }
-        
-        @media (max-width: 768px) {
-            .feature-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .support-section {
-                padding: 1.5rem;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#071d4b">
+  <meta name="description" content="iCashPro privacy policy, data practices, account sharing information and support.">
+  <title>iCashPro — Privacy Policy & Support</title>
+  <style>
+    :root{--navy:#061a45;--blue:#087ee8;--cyan:#24c7ff;--ink:#14213d;--muted:#63708a;--line:#dce7f7;--card:#fff;--soft:#f3f8ff;--green:#17a668;--shadow:0 18px 55px rgba(7,29,75,.12)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:linear-gradient(180deg,#eef6ff 0,#fff 28rem);color:var(--ink);font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}a{color:var(--blue)}
+    .wrap{width:min(1120px,calc(100% - 32px));margin:auto}.hero{position:relative;overflow:hidden;background:radial-gradient(circle at 82% 12%,rgba(36,199,255,.3),transparent 24rem),linear-gradient(135deg,#031536,#0a3c91);color:#fff;padding:28px 0 86px}.hero:after{content:"";position:absolute;inset:auto -10% -100px;height:170px;background:#eef6ff;border-radius:50% 50% 0 0/30% 30% 0 0}
+    nav{display:flex;align-items:center;justify-content:space-between;gap:20px;position:relative;z-index:2}.brand{display:flex;align-items:center;gap:12px;font-size:1.2rem;font-weight:850;letter-spacing:-.02em}.brand img{width:48px;height:48px;border-radius:13px;box-shadow:0 8px 24px rgba(0,0,0,.25)}nav a{color:#fff;text-decoration:none;font-weight:700;padding:9px 14px;border:1px solid rgba(255,255,255,.25);border-radius:999px}
+    .hero-grid{display:grid;grid-template-columns:1.15fr .85fr;align-items:center;gap:54px;position:relative;z-index:2;padding-top:68px}.eyebrow{display:inline-flex;gap:8px;align-items:center;padding:7px 12px;border-radius:999px;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);font-size:.82rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}.hero h1{font-size:clamp(2.5rem,7vw,5.2rem);line-height:1.02;letter-spacing:-.055em;margin:18px 0}.hero p{max-width:690px;color:#d9eaff;font-size:1.12rem}.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}.badge{padding:9px 13px;border-radius:12px;background:rgba(255,255,255,.11);border:1px solid rgba(255,255,255,.18);font-weight:750}.logo-stage{display:grid;place-items:center}.app-logo{width:min(290px,70vw);aspect-ratio:1;border-radius:30%;filter:drop-shadow(0 28px 30px rgba(0,0,0,.3));animation:float 5s ease-in-out infinite}@keyframes float{50%{transform:translateY(-10px)}}
+    main{position:relative;z-index:3;margin-top:-38px}.summary{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.summary article,.panel{background:var(--card);border:1px solid rgba(8,126,232,.12);border-radius:22px;box-shadow:var(--shadow)}.summary article{padding:22px}.summary b{display:block;font-size:1.05rem;margin:8px 0 3px}.summary span{color:var(--muted);font-size:.94rem}.icon{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:#e9f5ff;font-size:1.35rem}
+    .section{padding:62px 0 0}.section-head{max-width:760px;margin-bottom:24px}.section h2{font-size:clamp(1.8rem,4vw,2.65rem);line-height:1.15;letter-spacing:-.035em;margin:0 0 10px}.section-head p{color:var(--muted);margin:0}.feature-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.feature{padding:24px}.feature h3{margin:12px 0 5px;font-size:1.08rem}.feature p{margin:0;color:var(--muted);font-size:.94rem}
+    .policy{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px}.toc{position:sticky;top:18px;align-self:start;padding:18px}.toc a{display:block;text-decoration:none;color:var(--muted);font-weight:680;padding:7px 9px;border-radius:9px}.toc a:hover{background:var(--soft);color:var(--blue)}.policy-body{padding:12px 30px}.policy-item{padding:27px 0;border-bottom:1px solid var(--line)}.policy-item:last-child{border-bottom:0}.policy-item h3{font-size:1.25rem;margin:0 0 10px}.policy-item p{margin:8px 0;color:#42506a}.policy-item ul{margin:10px 0;padding-left:22px;color:#42506a}.notice{padding:18px;border-radius:14px;background:#edf9f4;border:1px solid #b9ead5;color:#176847}.sharing{background:linear-gradient(135deg,#071f50,#0b55b6);color:#fff;border:0}.sharing .policy-item{border-color:rgba(255,255,255,.14)}.sharing .policy-item p,.sharing .policy-item li{color:#dcecff}
+    .contact{display:grid;grid-template-columns:1fr auto;align-items:center;gap:20px;padding:32px;background:linear-gradient(135deg,#eaf6ff,#f7fbff)}.contact h2{margin:0 0 6px}.contact p{margin:0;color:var(--muted)}.contact a{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:850;padding:13px 20px;border-radius:13px;box-shadow:0 10px 24px rgba(8,126,232,.25)}footer{padding:38px 0;text-align:center;color:var(--muted);font-size:.9rem}
+    @media(max-width:820px){.hero-grid{grid-template-columns:1fr;text-align:center;padding-top:48px}.hero p{margin-left:auto;margin-right:auto}.badges{justify-content:center}.logo-stage{grid-row:1}.app-logo{width:170px}.summary,.feature-grid{grid-template-columns:1fr}.policy{grid-template-columns:1fr}.toc{position:static}.policy-body{padding:4px 22px}.contact{grid-template-columns:1fr;text-align:center}.hero{padding-bottom:75px}}
+    @media(prefers-color-scheme:dark){:root{--ink:#eef5ff;--muted:#aebbd2;--line:#263b60;--card:#0d2247;--soft:#142e5b;--shadow:0 18px 55px rgba(0,0,0,.28)}body{background:linear-gradient(180deg,#07162f 0,#091a36 28rem);color:var(--ink)}.hero:after{background:#07162f}.feature p,.policy-item p,.policy-item ul,.contact p{color:var(--muted)}.contact{background:linear-gradient(135deg,#102b58,#0d2247)}.notice{background:#0d382e;border-color:#1a684f;color:#baf2dd}}
+  </style>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">iCashPro</div>
-            <div class="tagline">Complete Business Management Solution</div>
-            <h1>App Support</h1>
-        </div>
-    </header>
-    
-    <div class="container">
-        <div class="support-section">
-            <h2>About iCashPro</h2>
-            <p>iCashPro is a comprehensive business management application designed specifically for freelancers and small businesses in Pakistan. With an intuitive Urdu/English mixed UI, it helps you manage multiple businesses, track income and expenses, and maintain financial records entirely offline.</p>
-            
-            <div class="highlight">
-                <h3>Key Highlights</h3>
-                <p>Offline-first for privacy and speed • Fast & responsive • Handles 500+ transactions with ease • Attach receipts/photos to transactions • Tailor-made for Pakistani users</p>
-            </div>
-            
-            <h2>Complete Features List</h2>
-            
-            <h3>Business Management</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🏢</div>
-                    <h4>Multiple Businesses</h4>
-                    <p>Manage and keep data of multiple businesses separately with easy switching between them.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h4>Flexible Management</h4>
-                    <p>Rename or delete any business and switch between active businesses instantly.</p>
-                </div>
-            </div>
-            
-            <h3>Account Management</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💳</div>
-                    <h4>Multiple Account Types</h4>
-                    <p>Support for Cash, Bank, Mobile Wallet, and Credit Cards with multi-currency support.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🌍</div>
-                    <h4>Multi-Currency</h4>
-                    <p>Support for PKR, USD, EUR, and more with opening balance and status management.</p>
-                </div>
-            </div>
-            
-            <h3>Transaction Features</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">💰</div>
-                    <h4>Income & Expense Tracking</h4>
-                    <p>Record transactions with date, amount, notes, and attach compressed photos.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h4>Organization</h4>
-                    <p>Organize via categories and payment modes with customer name picker.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📝</div>
-                    <h4>Advanced Management</h4>
-                    <p>Edit, delete, move transactions, save drafts, and view running balances.</p>
-                </div>
-            </div>
-            
-            <h3>Reminders & Notifications</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">⏰</div>
-                    <h4>Transaction Reminders</h4>
-                    <p>Set reminders for future transactions with full notification management.</p>
-                </div>
-            </div>
-            
-            <h3>Dashboard & Reports</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h4>Financial Overview</h4>
-                    <p>View income, expenses, and balance with currency-wise breakdown.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📊</div>
-                    <h4>Visual Analytics</h4>
-                    <p>Charts for income/expense comparison and Excel-style tabular reports.</p>
-                </div>
-            </div>
-            
-            <h3>Export & Backup</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📤</div>
-                    <h4>Multiple Formats</h4>
-                    <p>CSV export for Excel, PDF for professional reporting, and JSON for backup.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔄</div>
-                    <h4>Easy Sharing</h4>
-                    <p>Share backup/files via WhatsApp, Mail, Files, and other platforms.</p>
-                </div>
-            </div>
-            
-            <h3>Import & Data Management</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">📥</div>
-                    <h4>CSV Import</h4>
-                    <p>Bulk data entry with standard template for efficient data management.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🗃️</div>
-                    <h4>Categories & Payment Modes</h4>
-                    <p>Custom categories and default payment modes with full management.</p>
-                </div>
-            </div>
-            
-            <h3>User Experience</h3>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🎨</div>
-                    <h4>Themes & Customization</h4>
-                    <p>Light, Dark, or System themes with 10+ color schemes for personalized experience.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h4>Search & Filter</h4>
-                    <p>Search accounts by name and filter by date, account, or category.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🚀</div>
-                    <h4>Optimized Performance</h4>
-                    <p>Onboarding for new users, helpful empty states, and optimized for speed.</p>
-                </div>
-            </div>
-            
-            <div class="contact-info">
-                <h2>Need Help?</h2>
-                <p>If you have any questions, need assistance with the app, or want to provide feedback, please contact our support team:</p>
-                <a href="mailto:qasim.aziz@hotmail.com" class="contact-email">qasim.aziz@hotmail.com</a>
-            </div>
-        </div>
+  <header class="hero">
+    <div class="wrap">
+      <nav><div class="brand"><img src="icashpro-logo.svg" alt="iCashPro logo"><span>iCashPro</span></div><a href="#support">Get Support</a></nav>
+      <div class="hero-grid">
+        <div><span class="eyebrow">Privacy Policy & App Support</span><h1>Your money records.<br>Your control.</h1><p>iCashPro is a multi-business cashbook for managing accounts, income, expenses, attachments, reminders, reports and secure user-to-user account sharing across iOS and Android.</p><div class="badges"><span class="badge">iOS & Android</span><span class="badge">Currently free</span><span class="badge">Local-first with supported cloud sync</span></div></div>
+        <div class="logo-stage"><img class="app-logo" src="icashpro-logo.svg" alt="iCashPro wallet app icon"></div>
+      </div>
     </div>
-    
-    <footer>
-        <div class="container">
-            <p>Thank you for choosing iCashPro!</p>
-            <p>&copy; 2023 iCashPro. All rights reserved.</p>
+  </header>
+
+  <main class="wrap">
+    <section class="summary">
+      <article><div class="icon">🛡️</div><b>No sale of personal data</b><span>We do not sell your personal or financial records.</span></article>
+      <article><div class="icon">🤝</div><b>Sharing is permission-based</b><span>Owners control members, roles and account access.</span></article>
+      <article><div class="icon">🗂️</div><b>Backup remains important</b><span>Keep regular JSON backups of important records.</span></article>
+    </section>
+
+    <section class="section" id="about"><div class="section-head"><h2>About the new iCashPro</h2><p>A practical personal and business finance record-management app—not a bank, payment processor, investment adviser or tax adviser.</p></div>
+      <div class="feature-grid">
+        <article class="panel feature"><div class="icon">🏢</div><h3>Businesses & accounts</h3><p>Manage multiple businesses, currencies, opening balances and custom cash, bank, wallet or card accounts.</p></article>
+        <article class="panel feature"><div class="icon">💸</div><h3>Transactions & reports</h3><p>Record income and expenses with dates, notes, contacts, categories, payment modes, running balances, filters and exports.</p></article>
+        <article class="panel feature"><div class="icon">👥</div><h3>Secure account sharing</h3><p>Invite registered users as Admin, Editor or Viewer, with Owner approval and account-specific permissions.</p></article>
+        <article class="panel feature"><div class="icon">📎</div><h3>Attachments & reminders</h3><p>Add optimized transaction images and create local reminders for important entries.</p></article>
+        <article class="panel feature"><div class="icon">☁️</div><h3>Sync & recovery</h3><p>Work locally where supported, synchronize signed-in/shared data when online, and restore compatible backups.</p></article>
+        <article class="panel feature"><div class="icon">🎨</div><h3>Built for everyday use</h3><p>Light, dark and system themes, search, newest-first views, friendly walkthroughs and detailed help.</p></article>
+      </div>
+    </section>
+
+    <section class="section" id="privacy"><div class="section-head"><h2>Privacy Policy</h2><p><strong>Effective date:</strong> 10 September 2026. This policy explains what iCashPro processes, why it is needed, how sharing works and the choices available to you.</p></div>
+      <div class="policy">
+        <aside class="panel toc"><strong>On this page</strong><a href="#information">Information</a><a href="#use">How it is used</a><a href="#storage">Storage & sync</a><a href="#account-sharing">Account sharing</a><a href="#permissions">Device permissions</a><a href="#retention">Retention & deletion</a><a href="#security">Security</a><a href="#children">Children</a><a href="#changes">Policy changes</a></aside>
+        <div class="panel policy-body">
+          <article class="policy-item" id="information"><h3>1. Information we process</h3><p>Depending on the features you use, iCashPro may process:</p><ul><li>Account identifiers such as user ID, display name, email address, authentication provider and Guest ID information.</li><li>Businesses, accounts, currencies, balances, transactions, notes, categories, payment modes, customer/contact details and movement history that you enter.</li><li>Images or other supported attachments, reminder settings and exported/backup data.</li><li>Sharing invitations, member roles, approval decisions, access permissions and the identity of the user who created or changed a shared record.</li><li>Device notification tokens, basic device/platform information and technical request data needed for sign-in, security, synchronization and delivery of notifications.</li></ul></article>
+          <article class="policy-item" id="use"><h3>2. How information is used</h3><p>Information is used to create and authenticate your account, provide cashbook features, calculate balances and reports, save and restore records, synchronize supported data, deliver email verification codes and reminders, enable account sharing, enforce roles, prevent abuse, diagnose failures and provide support.</p><div class="notice"><strong>Current access:</strong> All currently available app features are free. No subscription-based account limit is active. If optional paid plans are introduced later, pricing and limits will be shown before purchase.</div></article>
+          <article class="policy-item" id="storage"><h3>3. Local storage, cloud backup and sync</h3><p>iCashPro uses local device storage for responsive access and offline-capable work where supported. When you sign in or use sharing, selected records and backups may also be transmitted to and stored by contracted cloud service providers so data can synchronize, notifications can be delivered and supported recovery can occur. Internet access is required for authentication, email verification, invitations, shared updates, push notifications and cloud operations.</p><p>No system can guarantee uninterrupted availability or recovery of every record. Keep a separate JSON backup before signing out, replacing a device, deleting the app or restoring data.</p></article>
         </div>
-    </footer>
+      </div>
+    </section>
+
+    <section class="section" id="account-sharing"><div class="panel policy-body sharing">
+      <article class="policy-item"><h2>User-to-user account sharing</h2><p>An Owner can invite another registered iCashPro user using that user's registered email. The recipient must accept before access is granted. Owners must verify the recipient and share only information they are authorized to disclose.</p></article>
+      <article class="policy-item"><h3>Roles and approvals</h3><ul><li><strong>Owner:</strong> controls account details, members, roles and deletion permission.</li><li><strong>Admin:</strong> may manage members; a new invitation initiated by an Admin requires Owner approval before it is sent.</li><li><strong>Editor:</strong> may add and edit transactions; deletion is available only when the Owner enables Allow Delete.</li><li><strong>Viewer:</strong> has read-only access.</li></ul></article>
+      <article class="policy-item"><h3>Shared activity and notifications</h3><p>Authorized changes may synchronize to all members and may show who performed an action. Invitations, approvals, acceptance, rejection, role changes, removals and shared activity may generate in-app, email or push notifications. The Owner can remove a member and a member can leave. This stops future authorized access but cannot recall information already viewed, exported, copied or independently backed up.</p></article>
+    </div></section>
+
+    <section class="section"><div class="panel policy-body">
+      <article class="policy-item" id="permissions"><h3>4. Device permissions</h3><ul><li><strong>Contacts:</strong> used only after permission to help select customer/contact information.</li><li><strong>Photos/files:</strong> used when you select an attachment, import a backup or export a report.</li><li><strong>Notifications:</strong> used for reminders and account-sharing activity when enabled.</li></ul><p>You can change permissions in device settings, but disabling one may prevent the related feature from working.</p></article>
+      <article class="policy-item"><h3>5. Authentication and service providers</h3><p>iCashPro may use Apple, Google, email verification and Guest ID sign-in. Contracted providers may process limited information to authenticate users, send verification email, host encrypted-in-transit cloud requests, store supported records and deliver notifications. Their own terms and privacy policies may also apply.</p></article>
+      <article class="policy-item"><h3>6. Disclosure and sale of data</h3><p>We do not sell personal or financial data. Information may be disclosed to service providers only as needed to operate the app, to users you intentionally share an account with, when required by law, or to protect users, security and legal rights. iCashPro does not currently use your financial records for targeted advertising.</p></article>
+      <article class="policy-item" id="retention"><h3>7. Retention, backup and deletion</h3><p>Local records remain until you delete them, restore over them, delete the app or erase the device. Supported cloud records are kept while needed to provide the service, maintain sharing and recovery, prevent abuse or meet legal/security requirements. Deleting an account can permanently delete its transactions. Leaving a shared account removes your access, while the Owner's records remain.</p><p>To delete your iCashPro identity, first remove or leave all linked accounts, then use <strong>Settings → Delete My Account</strong>. You may also contact support. Some limited records may be retained where reasonably necessary for fraud prevention, security, legal compliance or resolving disputes.</p></article>
+      <article class="policy-item" id="security"><h3>8. Security</h3><p>We use reasonable technical and organizational measures, including authenticated requests, role checks and encrypted network connections. You are responsible for securing your device, email account, verification codes, backups and sharing choices. No method of storage or transmission is completely risk-free.</p></article>
+      <article class="policy-item"><h3>9. International processing</h3><p>Cloud providers and users of a shared account may be located in different countries. By using online features, information may be processed where those services operate, subject to applicable safeguards and law.</p></article>
+      <article class="policy-item" id="children"><h3>10. Children's privacy</h3><p>iCashPro is not directed to children under 13 and we do not knowingly collect their personal information. If you believe a child has provided information, contact us so the matter can be reviewed.</p></article>
+      <article class="policy-item" id="changes"><h3>11. Changes to this policy</h3><p>We may update this policy when app features, security requirements, providers, law or the business model changes. The effective date will be updated and material changes may also be communicated in the app.</p></article>
+    </div></section>
+
+    <section class="section" id="support"><div class="panel contact"><div><h2>Questions or support?</h2><p>Contact iCashPro about privacy, account access, data deletion, app support or feedback.</p></div><a href="mailto:support@icashpro.com">support@icashpro.com</a></div></section>
+  </main>
+  <footer><div class="wrap"><p><strong>iCashPro</strong> · Privacy Policy & App Support</p><p>© 2026 iCashPro. All rights reserved.</p></div></footer>
 </body>
 </html>
